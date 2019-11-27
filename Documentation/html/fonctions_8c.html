@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projet DES: Référence du fichier Fonctions/fonctions.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projet DES
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('fonctions_8c.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier fonctions.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Fichier contenant les différentes fonctions communes aux autres fichiers.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="fonctions_8h_source.html">fonctions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_tables___permu_8h_source.html">../DES/Tables_Permu.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a6bc0cb29e73adf8526902962bac128c5"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a6bc0cb29e73adf8526902962bac128c5">et_binaire</a> (long a, long b)</td></tr>
+<tr class="memdesc:a6bc0cb29e73adf8526902962bac128c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet d'appliquer un ET binaire entre a et b.  <a href="#a6bc0cb29e73adf8526902962bac128c5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6bc0cb29e73adf8526902962bac128c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b663d6649f6be151a0ec644fa286672"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a0b663d6649f6be151a0ec644fa286672">shift_droit</a> (long a, int b)</td></tr>
+<tr class="memdesc:a0b663d6649f6be151a0ec644fa286672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de shifter à droite de b decalage.  <a href="#a0b663d6649f6be151a0ec644fa286672">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0b663d6649f6be151a0ec644fa286672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb415192b994a23ee21b305098b9b971"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#acb415192b994a23ee21b305098b9b971">shift_gauche</a> (long a, int b)</td></tr>
+<tr class="memdesc:acb415192b994a23ee21b305098b9b971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de shifter à gauche de b decalage.  <a href="#acb415192b994a23ee21b305098b9b971">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb415192b994a23ee21b305098b9b971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff9a525ba3950b4a7549b080373d9838"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aff9a525ba3950b4a7549b080373d9838">concat</a> (long a, long b)</td></tr>
+<tr class="memdesc:aff9a525ba3950b4a7549b080373d9838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de concatener 2 long.  <a href="#aff9a525ba3950b4a7549b080373d9838">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aff9a525ba3950b4a7549b080373d9838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb08d00e4ddf078ff4a0cf2090a6a59"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a8bb08d00e4ddf078ff4a0cf2090a6a59">or_exclu</a> (long a, long b)</td></tr>
+<tr class="memdesc:a8bb08d00e4ddf078ff4a0cf2090a6a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de xor 2 long.  <a href="#a8bb08d00e4ddf078ff4a0cf2090a6a59">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8bb08d00e4ddf078ff4a0cf2090a6a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573465981c06b226a8b49f0f36baeee4"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a573465981c06b226a8b49f0f36baeee4">decoupage_msgL</a> (long msg, long mask)</td></tr>
+<tr class="memdesc:a573465981c06b226a8b49f0f36baeee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de stocker la partie L du message.  <a href="#a573465981c06b226a8b49f0f36baeee4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a573465981c06b226a8b49f0f36baeee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735efc5f9811d9a985edc893f4142aa6"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a735efc5f9811d9a985edc893f4142aa6">decoupage_msgR</a> (long msg, long mask)</td></tr>
+<tr class="memdesc:a735efc5f9811d9a985edc893f4142aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de stocker la partie R du message.  <a href="#a735efc5f9811d9a985edc893f4142aa6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a735efc5f9811d9a985edc893f4142aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e5f1bc0d0a9a59d20ce39f3b9ec250"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a63e5f1bc0d0a9a59d20ce39f3b9ec250">calcul_col_SBOX</a> (int bloc6bits)</td></tr>
+<tr class="memdesc:a63e5f1bc0d0a9a59d20ce39f3b9ec250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de calculer les colonnes des SBOX.  <a href="#a63e5f1bc0d0a9a59d20ce39f3b9ec250">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a63e5f1bc0d0a9a59d20ce39f3b9ec250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44f5db66ba66916f07926ef585c0c127"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a44f5db66ba66916f07926ef585c0c127">calcul_lignes_SBOX</a> (int bloc6bits)</td></tr>
+<tr class="memdesc:a44f5db66ba66916f07926ef585c0c127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de calculer les lignes des SBOX.  <a href="#a44f5db66ba66916f07926ef585c0c127">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a44f5db66ba66916f07926ef585c0c127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0062579f47ae19a5a4ac9653ff784b3f"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a0062579f47ae19a5a4ac9653ff784b3f">decoupe_4bits</a> (long check, int NUM_SBOX)</td></tr>
+<tr class="memdesc:a0062579f47ae19a5a4ac9653ff784b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de découper le check en blocs de 4bits pour chaque SBOX.  <a href="#a0062579f47ae19a5a4ac9653ff784b3f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0062579f47ae19a5a4ac9653ff784b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e4e9dd0cf754139ac10a9f6ce98fa9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a49e4e9dd0cf754139ac10a9f6ce98fa9">decoupe_6bits</a> (long expansion, int NUM_SBOX)</td></tr>
+<tr class="memdesc:a49e4e9dd0cf754139ac10a9f6ce98fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de découper l'expansion en blocs de 6bits pour chaque SBOX.  <a href="#a49e4e9dd0cf754139ac10a9f6ce98fa9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a49e4e9dd0cf754139ac10a9f6ce98fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f8ae3ec64b63187804981f41a796a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a58f8ae3ec64b63187804981f41a796a3">trouver_SBOX_4bits</a> (int NUM_SBOX)</td></tr>
+<tr class="memdesc:a58f8ae3ec64b63187804981f41a796a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de trouver la bonne SBOX où se trouve les 4bits de sortie.  <a href="#a58f8ae3ec64b63187804981f41a796a3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a58f8ae3ec64b63187804981f41a796a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f316de735db3756d77fea122cbb017"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a95f316de735db3756d77fea122cbb017">trouver_SBOX_6bits</a> (int NUM_SBOX)</td></tr>
+<tr class="memdesc:a95f316de735db3756d77fea122cbb017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction qui permet de trouver la bonne SBOX où injecté les 6bits.  <a href="#a95f316de735db3756d77fea122cbb017">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a95f316de735db3756d77fea122cbb017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ec31e47406da601ee37d71ffad48be"><td class="memItemLeft" align="right" valign="top"><a id="a37ec31e47406da601ee37d71ffad48be"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>recup_sortieSBOX_fonctionF</b> (int SBOX)</td></tr>
+<tr class="separator:a37ec31e47406da601ee37d71ffad48be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Fichier contenant les différentes fonctions communes aux autres fichiers. </p>
+<dl class="section author"><dt>Auteur</dt><dd>ROBIN JORAN </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.00 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>25 Mars 2019 </dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a63e5f1bc0d0a9a59d20ce39f3b9ec250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e5f1bc0d0a9a59d20ce39f3b9ec250">&#9670;&nbsp;</a></span>calcul_col_SBOX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int calcul_col_SBOX </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bloc6bits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de calculer les colonnes des SBOX. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>la valeur de la colonne </dd></dl>
+
+</div>
+</div>
+<a id="a44f5db66ba66916f07926ef585c0c127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44f5db66ba66916f07926ef585c0c127">&#9670;&nbsp;</a></span>calcul_lignes_SBOX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int calcul_lignes_SBOX </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bloc6bits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de calculer les lignes des SBOX. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>la valeur de la ligne </dd></dl>
+
+</div>
+</div>
+<a id="aff9a525ba3950b4a7549b080373d9838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9a525ba3950b4a7549b080373d9838">&#9670;&nbsp;</a></span>concat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long concat </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de concatener 2 long. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>: long a </td></tr>
+    <tr><td class="paramname">b</td><td>: long b </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>(a | b) la ocncatenation des 2 </dd></dl>
+
+</div>
+</div>
+<a id="a573465981c06b226a8b49f0f36baeee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573465981c06b226a8b49f0f36baeee4">&#9670;&nbsp;</a></span>decoupage_msgL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long decoupage_msgL </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de stocker la partie L du message. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>L16 fauté ou non selon le paramètre </dd></dl>
+
+</div>
+</div>
+<a id="a735efc5f9811d9a985edc893f4142aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735efc5f9811d9a985edc893f4142aa6">&#9670;&nbsp;</a></span>decoupage_msgR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long decoupage_msgR </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de stocker la partie R du message. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>R16 fauté ou non selon le paramètre </dd></dl>
+
+</div>
+</div>
+<a id="a0062579f47ae19a5a4ac9653ff784b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0062579f47ae19a5a4ac9653ff784b3f">&#9670;&nbsp;</a></span>decoupe_4bits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long decoupe_4bits </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>check</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>NUM_SBOX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de découper le check en blocs de 4bits pour chaque SBOX. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">check</td><td>: XOR entre L16 et L16_fauté </td></tr>
+    <tr><td class="paramname">NUM_SBOX</td><td>: numéro courant de la SBOX </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>les 4bits de sortie pour chaque SBOX </dd></dl>
+
+</div>
+</div>
+<a id="a49e4e9dd0cf754139ac10a9f6ce98fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e4e9dd0cf754139ac10a9f6ce98fa9">&#9670;&nbsp;</a></span>decoupe_6bits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long decoupe_6bits </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>expansion</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>NUM_SBOX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de découper l'expansion en blocs de 6bits pour chaque SBOX. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">expansion</td><td>: Expansion De R15 ou R15f </td></tr>
+    <tr><td class="paramname">NUM_SBOX</td><td>: numéro courant de la SBOX </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>les 6bits pour chaque SBOX </dd></dl>
+
+</div>
+</div>
+<a id="a6bc0cb29e73adf8526902962bac128c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc0cb29e73adf8526902962bac128c5">&#9670;&nbsp;</a></span>et_binaire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long et_binaire </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet d'appliquer un ET binaire entre a et b. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>: long a </td></tr>
+    <tr><td class="paramname">b</td><td>: long b </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>(a &amp; b) </dd></dl>
+
+</div>
+</div>
+<a id="a8bb08d00e4ddf078ff4a0cf2090a6a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb08d00e4ddf078ff4a0cf2090a6a59">&#9670;&nbsp;</a></span>or_exclu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long or_exclu </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de xor 2 long. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>: long a </td></tr>
+    <tr><td class="paramname">b</td><td>: long b </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>(a ^ b) la concatenation des 2 </dd></dl>
+
+</div>
+</div>
+<a id="a0b663d6649f6be151a0ec644fa286672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b663d6649f6be151a0ec644fa286672">&#9670;&nbsp;</a></span>shift_droit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long shift_droit </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de shifter à droite de b decalage. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>: long a </td></tr>
+    <tr><td class="paramname">b</td><td>: int b </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>(a &gt;&gt; b) </dd></dl>
+
+</div>
+</div>
+<a id="acb415192b994a23ee21b305098b9b971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb415192b994a23ee21b305098b9b971">&#9670;&nbsp;</a></span>shift_gauche()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long shift_gauche </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de shifter à gauche de b decalage. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>: long a </td></tr>
+    <tr><td class="paramname">b</td><td>: int b </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>(a &lt;&lt; b) </dd></dl>
+
+</div>
+</div>
+<a id="a58f8ae3ec64b63187804981f41a796a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f8ae3ec64b63187804981f41a796a3">&#9670;&nbsp;</a></span>trouver_SBOX_4bits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int trouver_SBOX_4bits </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>NUM_SBOX</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de trouver la bonne SBOX où se trouve les 4bits de sortie. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NUM_SBOX</td><td>: numéro courant de la SBOX </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>la position des 4 bits pour la bonne SBOX </dd></dl>
+
+</div>
+</div>
+<a id="a95f316de735db3756d77fea122cbb017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f316de735db3756d77fea122cbb017">&#9670;&nbsp;</a></span>trouver_SBOX_6bits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int trouver_SBOX_6bits </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>NUM_SBOX</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction qui permet de trouver la bonne SBOX où injecté les 6bits. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NUM_SBOX</td><td>: numéro courant de la SBOX </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>la position des 6bits pour la bonne SBOX </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d29140aa44790ef6f9de6dafa43dd6eb.html">Fonctions</a></li><li class="navelem"><a class="el" href="fonctions_8c.html">fonctions.c</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>
